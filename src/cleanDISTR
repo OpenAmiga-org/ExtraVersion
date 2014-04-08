@@ -1,0 +1,3 @@
+delete DISTR/txt2char/txt2c-source ALL
+delete DISTR/txt2char ALL
+
