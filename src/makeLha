@@ -1,3 +1,0 @@
-cd DISTR
-LHA -aer a "txt2char" "txt2char"
-cd /
