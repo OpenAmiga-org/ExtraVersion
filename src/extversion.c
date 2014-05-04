@@ -1,10 +1,10 @@
 /** 
- **  TODO: Going to continue soon..! /Marko
+ **  TODO: To be continued (hopefully) soon..! /Marko
  **
  **/
 
-#define APP_VERSTAG	"\0$VER: Extversion x.xx (07.04.2014)"
-#define APP_EXTVER	"\0$EXTVER: Extversion Alpha 1 (07.04.2014) Extversion test comment."
+#define APP_VERSTAG	"\0$VER: Extversion x.xx (04.05.2014)"
+#define APP_EXTVER	"\0$EXTVER: Extversion Alpha 2 (04.05.2014) Extversion test comment."
 #define APP_NAME	"Extversion"
 #define APP_AUTHORS	""
 #define BUFFER_SIZE	2049	// +1 for \0 character
@@ -25,6 +25,7 @@ int scan_extver(char filename[BUFFER_SIZE]){
 	int len = 0;
 	int is_found_marker = 0;
 	int is_exit = 0;
+	strcpy(extver_string, "\0");	// set to \0 to be sure
 
 	if((fp = fopen(filename, "rb")) == NULL){
 		printf("Error: cant open file %s\n", filename);
@@ -53,6 +54,9 @@ int scan_extver(char filename[BUFFER_SIZE]){
 		}	
 		if(is_found_marker){
 			printf("c = %c\n", c);
+			//strncat(extver_string, (*char)c, 1);
+			extver_string[strlen(extver_string)] = (char)c;
+//+++++++++
 			if(c=='\0'){
 				//printf("=== %s\n", extver_string);
 				printf("len = %d\n", len);
@@ -85,7 +89,8 @@ int scan_extver(char filename[BUFFER_SIZE]){
 
 	fclose(fp);
 
-//	printf("= %s\n", extver_string);
+	strncat(extver_string, "\0", 1);
+	printf("extver_string: >>>%s<<<\n", extver_string);
 
 	return RETURN_OK;
 }
@@ -126,7 +131,10 @@ void print_amiga_version_tag(char verstag[]){
 void print_version(){
 	//printf("Version: %s %s\n", APP_NAME, APP_VERSION);
 	
-	printf("Internal version: ");
+	printf("NAME\n EXTVERSION - Find the extra version number.\n\n");
+	printf("FORMAT\n EXTVERSION [<library|script|file>] [VSTRING|HELP]\n\n");
+	printf("TEMPLATE\n NAME,VSTRING/S,HELP/S\n\n");
+	printf("FUNCTION\n EXTVERSION finds the extra version number of a library, command, script or simply any file if the extra version string has been correctly set in the file.\n\n");
 	print_amiga_version_tag(APP_VERSTAG);
 	printf("\n");	
 }
@@ -139,7 +147,7 @@ void print_verstag(){
 
 void print_help(){
 	printf("\n\n");
-	printf("ShowFiles|sf [assignment:][path] [MORE|CLARIFY|DEFAULT] | [REVERSE\n             |TIME|SIZE|TRAIL|QUICK|FILES|DIRS|LINKS|HELP|VERSION|MANUAL]\n");
+	printf("Extversion [assignment:][path] [MORE|CLARIFY|DEFAULT] | [REVERSE\n             |TIME|SIZE|TRAIL|QUICK|FILES|DIRS|LINKS|HELP|VERSION|MANUAL]\n");
 	printf("\n");
 	print_version();
 	printf("\n");
