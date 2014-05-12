@@ -5,6 +5,11 @@ compile : extversion.c
 	$(CC) -N extversion.c -o Extversion -mcrt=newlib 
 	strip Extversion
 
+release: compile
+	delete /release/#?
+	copy Extversion /release
+	copy /docs/Extversion.doc /release
+
 clean : 
 	If Exists "Extversion"@@\
 		delete "Extversion"@@\

@@ -3,8 +3,9 @@
  **
  **/
 
-#define APP_VERSTAG	"\0$VER: Extversion x.xx (04.05.2014)"
-#define APP_EXTVER	"\0$EXTVER: Extversion Alpha 2 (04.05.2014) Extversion test comment."
+#define DEBUG_MODE 	 0
+#define APP_VERSTAG	"\0$VER: Extversion 0.4 (12.05.2014)"
+#define APP_EXTVER	"\0$EXTVER: Extversion 0.4-Alpha_4 (12.05.2014) Extversion test comment."
 #define APP_NAME	"Extversion"
 #define APP_AUTHORS	""
 #define BUFFER_SIZE	2049	// +1 for \0 character
@@ -32,36 +33,52 @@ int scan_extver(char filename[BUFFER_SIZE]){
 		return RETURN_ERROR;		// something wrong
 	}
 
-	printf("$:%d\n", (char)"$");    
+	#if DEBUG_MODE
+		printf("$:%d\n", (char)"$");    
+	#endif
 	char MARKER[] = "$EXTVER: ";
-	printf("= %c\n", MARKER[0]);    
+	#if DEBUG_MODE
+		printf("= %c\n", MARKER[0]);    
+	#endif
 
 	while((!feof(fp)) && (c = getc(fp))!=EOF){
 	    if(!is_found_marker && i>=0 && c==((int)MARKER[i])){
 			//printf("i = %d\n", i);    
-			printf("  %c == %c\n", c, MARKER[i]);    
+			#if DEBUG_MODE
+				printf("  %c == %c\n", c, MARKER[i]);    
+			#endif
 			i++;
 			if(i==9){
-				printf("*HIt*\n");    
+				#if DEBUG_MODE
+					printf("*HIt*\n");    
+				#endif
 				is_found_marker = 1;
 			}
 	    }else{
 			i = -1;
-			printf("/");    
+			#if DEBUG_MODE			
+				printf("/");    
+			#endif
 		}
 		if(c=='\0'){
 			i = 0;
 		}	
 		if(is_found_marker){
-			printf("c = %c\n", c);
+			#if DEBUG_MODE			
+				printf("c = %c\n", c);
+			#endif
 			//strncat(extver_string, (*char)c, 1);
 			extver_string[strlen(extver_string)] = (char)c;
 //+++++++++
 			if(c=='\0'){
 				//printf("=== %s\n", extver_string);
-				printf("len = %d\n", len);
+				#if DEBUG_MODE
+					printf("len = %d\n", len);
+				#endif
 				if(len<=1){
-					printf("*false hit!* restarting...");
+					#if DEBUG_MODE
+						printf("*false hit!* restarting...");
+					#endif
 					is_found_marker = 0;
 				}else{
 					is_exit = 1;
@@ -90,7 +107,14 @@ int scan_extver(char filename[BUFFER_SIZE]){
 	fclose(fp);
 
 	strncat(extver_string, "\0", 1);
-	printf("extver_string: >>>%s<<<\n", extver_string);
+	char *extver_string2 = trim_str(extver_string);
+
+	#if DEBUG_MODE
+		printf("extver_string:  >>>%s<<<\n", extver_string);
+		printf("extver_string2: >>>%s<<<\n", extver_string2);
+	#else
+		printf("%s\n", extver_string2);
+	#endif
 
 	return RETURN_OK;
 }
@@ -154,4 +178,40 @@ void print_help(){
 //	printf("\n  Usage: %s <filename> [variable_name]\n\n", argv[0]);
 //	printf("  %s version %s\n", APP_NAME, APP_VERSION); 
 //	printf("  %s\n\n", APP_CREDZ); 
+}
+
+// Left and right trim a str.
+char *trim_str(char *str){
+	int len, start, end;
+	char *new;
+
+	if(!str) return NULL;
+	len = strlen(str);
+	new = malloc(len+1);
+	if(!new) return NULL;
+
+	start = 0;
+	while(str[start]==' '){
+		start++;
+		if(start==len) break;
+	}
+
+	end = len;
+	while(str[end]==' '){
+		end--;
+		if(end==0) break;
+	}
+
+	int i;
+	for(i=start; i<end; i++){
+		new[i-start] = str[i];
+	}
+	new[end] = '\0';
+
+	#if DEBUG_MODE
+		printf("start = %i\n", start);
+		printf("end = %i\n", end);
+	#endif
+
+	return new;
 }
