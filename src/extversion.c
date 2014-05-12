@@ -4,8 +4,8 @@
  **/
 
 #define DEBUG_MODE 	 0
-#define APP_VERSTAG	"\0$VER: Extversion 0.4 (12.05.2014)"
-#define APP_EXTVER	"\0$EXTVER: Extversion 0.4-Alpha_4 (12.05.2014) Extversion test comment."
+#define APP_VERSTAG	"\0$VER: Extversion 0.3 (12.05.2014)"
+#define APP_EXTVER	"\0$EXTVER: Extversion 0.3-Alpha_3 (12.05.2014) Extversion test comment."
 #define APP_NAME	"Extversion"
 #define APP_AUTHORS	""
 #define BUFFER_SIZE	2049	// +1 for \0 character
