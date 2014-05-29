@@ -21,6 +21,9 @@ release : clean compile
 	copy /docs/Extversion.doc /release/Extversion/
 	copy /docs/Extversion.readme /release/Extversion/
 
+test :
+	tests/RunTest.s
+
 clean : 
 	If Exists "Extversion"@@\
 		delete "Extversion"@@\
