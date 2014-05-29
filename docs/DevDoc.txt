@@ -1,0 +1,23 @@
+DevDoc for Crash
+================
+
+Bug(s)
+-----
+* seems to not work on scripts/textfiles!
+
+TODO
+-----
+* when making release, copy os4depot.net as well
+* implement version
+* Add examples to .doc
+* Include history in the readme file.
+* transform extversion2 -> str_buffer
+* (patter matching)
+* maybe, move test script in code instead
+* version compare-exact match
+
+DONE (internally/codewise)
+----
+* Test drawer with a Good and Bad drawers consisting testfiles.
+* (Test script testing the good/bad files.)
+* OS4Depot password set.
