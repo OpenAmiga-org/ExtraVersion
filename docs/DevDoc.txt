@@ -1,5 +1,5 @@
-DevDoc for Crash
-================
+DevDoc for Extversion
+=====================
 
 Bug(s)
 -----
@@ -7,17 +7,25 @@ Bug(s)
 
 TODO
 -----
-* when making release, copy os4depot.net as well
-* implement version
+* clean up the code
+* refactor away/back the global array (was done due to debugging)
+* maybe, move test script into code instead
+* new/more test files
+* change convention to meet openamiga.org guidelines, the bracketting
+* when making release, copy os4depot.txt as well
+* fix space/tab issue in readme (check os4depot.net)
+* add install notes to readme
+* when uploading/updating to os4depot.net, change homepage to project page on oa.org
+* recheck tabs/spaces in doc, as it should be
 * Add examples to .doc
-* Include history in the readme file.
-* transform extversion2 -> str_buffer
+* if possible: transform extversion2 -> str_buffer
 * (patter matching)
-* maybe, move test script in code instead
 * version compare-exact match
+* later:(implement version)
 
 DONE (internally/codewise)
 ----
+* DONE: Include history in the readme file.
 * Test drawer with a Good and Bad drawers consisting testfiles.
 * (Test script testing the good/bad files.)
 * OS4Depot password set.
