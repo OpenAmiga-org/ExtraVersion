@@ -1,0 +1,69 @@
+Extversion 1.0 beta
+===================
+
+NAME
+    EXTRAVERSION - Find the extra version string (non-Amiga version).
+
+FORMAT
+    EXTRAVERSION [<library|script|file>] [FULL|VSTRING|HELP]
+
+TEMPLATE
+    NAME, FULL/S, HELP/S, VSTRING/S
+
+FUNCTION
+    EXTRAVERSION finds the extra version number of a library,	command,
+    script or simply any file where the extra version string has been has been
+    correctly set.
+
+COMMANDS
+    EXTRAVERSION with no <library|script|file> argument prints the name and
+    extra version string.
+
+    FULL  - Outputs name, extraversion, date and the comment in the extra
+    version string (in the same line). 
+
+    VSTRING - Outputs the complete extra version string (including $EXTVER:).
+
+    VERSION - <Not yet implemented.>
+
+    To add an extra version string to your file, make sure that the file
+    contains a string of characters that represent the extra version string.
+
+    "\0$EXTVER: Program_Name ExtraVersionString (dd.mm.yyyy) Some comment.\0" 
+
+	ProgramName    	    - Name of your program
+	ExtraVersionString  - Any non-Amiga version string (tip: use _ for spaces)
+	dd	                - Day of month (1-31)
+	mm	                - Month of year (1-12)
+	yyyy	            - Year using four digits
+	comment	            - Optional comment, just for readability.
+
+
+Changes
+-------
+
+Version 1.0b: 2016 Feb
+ - Large part of the command (pretty much the whole command) rewritten from scratch.
+ - Test cases implemented (for internal debugging/testing).
+ - More than 40 test files (for internal debugging/testing), testing both bad
+   good extver tags.
+ - Shold work on both textfiles and executables.
+ - Compiled with the newly published SDK.
+
+Version 0.4: Beta 1: 2014 May
+ - Option HELP implemented.
+ - Option FULL implemented.
+ - Option VSTRING implemented.
+ - Fixed bug, one (or some) extra trailing char got sometimes read into the
+   Extversion cookie.
+ - Fixed bug, failed to find properly set extra version string in scripts
+    and other text files.
+ - Many other fixes and improvements.
+
+Version 0.3: Alpha 3: 2014 May
+ - Updated the Extversion.doc.
+
+
+Author(s)
+---------
+OpenAmiga.org / Marko K. Seppänen

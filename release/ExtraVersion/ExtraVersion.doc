@@ -1,13 +1,16 @@
-commands/EXTVERSION                                       commands/EXTVERSION
+commands/EXTRAVERSION                                       commands/EXTVERSION
 
    NAME
-	EXTVERSION - Find the extra version number (non-Amiga version).
+	EXTVERSION - Find the extra version string (non-Amiga version).
+
+   VERSION
+    1.0 beta
 
    FORMAT
 	EXTVERSION [<library|script|file>] [FULL|VSTRING|HELP]
 
    TEMPLATE
-	NAME, FULL/S, VSTRING/S, HELP/S
+	NAME, FULL/S, HELP/S, VSTRING/S
 
    FUNCTION
 	EXTVERSION finds the extra version number of a library,	command,
