@@ -1,31 +1,32 @@
-DevDoc for Extversion
-=====================
+DevDoc for Extraversion
+=======================
 
 Bug(s)
 -----
-* seems to not work on scripts/textfiles!
+
 
 TODO
------
+----
+* do not include test code when making a proper version.
+* when called without params, print own extver tag.
+* clean up the doc file
+* clean up the readme file
 * clean up the code
-* refactor away/back the global array (was done due to debugging)
-* maybe, move test script into code instead
-* new/more test files
+* follow links to their destination so the file can be scanned
 * change convention to meet openamiga.org guidelines, the bracketting
-* when making release, copy os4depot.txt as well
-* fix space/tab issue in readme (check os4depot.net)
 * add install notes to readme
-* when uploading/updating to os4depot.net, change homepage to project page on oa.org
-* recheck tabs/spaces in doc, as it should be
 * Add examples to .doc
-* if possible: transform extversion2 -> str_buffer
 * (patter matching)
 * version compare-exact match
-* later:(implement version)
+* later: (implement version)
+* DONE implement a real test function testing ALL test files
+* DONE when making release, copy os4depot.txt as well
+* DONE fix space/tab issue in readme (check os4depot.net)
+
 
 DONE (internally/codewise)
 ----
-* DONE: Include history in the readme file.
-* Test drawer with a Good and Bad drawers consisting testfiles.
-* (Test script testing the good/bad files.)
-* OS4Depot password set.
+* DONE Include history in the readme file.
+* DONE Test drawer with a Good and Bad drawers consisting testfiles.
+* DONE OS4Depot password set.
+
