@@ -1,0 +1,56 @@
+; Install script for ExtraVersion (AmigaOS 4 Installation Utility).
+
+(set #app "ExtraVersion")
+(set @app-name "ExtraVersion")
+(set @default-dest "C:")
+; the log Novice mode writes goes to T: (LOGFILE tooltype of the icon)
+
+(welcome
+  (cat "This installs ExtraVersion, a Shell command that prints the extra "
+       "version string ($EXTVER:) of a program: the version of the original, "
+       "non-Amiga software, kept next to its Amiga version string."))
+
+; --- the command --------------------------------------------------------
+
+(set #cdir
+  (if (= @user-level 0)
+    "C:"
+    (askdir
+      (prompt "Where should the ExtraVersion command go?\n"
+              "(C: lets every program find it.)")
+      (help @askdir-help)
+      (default "C:"))))
+
+; copylib keeps a newer ExtraVersion that is installed already
+(copylib
+  (prompt (cat "Copying ExtraVersion to " #cdir))
+  (help @copylib-help)
+  (source "C/ExtraVersion")
+  (dest #cdir)
+  (confirm "expert"))
+
+; --- documentation ------------------------------------------------------
+
+(set #docdir
+  (if (= @user-level 0)
+    "SYS:Documentation/C"
+    (askdir
+      (prompt "Where should the documentation (ExtraVersion.doc) go?\n"
+              "(SYS:Documentation/C holds the documents of the other "
+              "Shell commands.)")
+      (help @askdir-help)
+      (default "SYS:Documentation/C"))))
+
+(if (exists #docdir)
+  (copyfiles
+    (prompt "Copying the documentation")
+    (help @copyfiles-help)
+    (source "ExtraVersion.doc")
+    (dest #docdir)
+    (nogauge))
+)
+
+(exit (cat "ExtraVersion is installed in " #cdir "\n\n"
+           "Type \"ExtraVersion HELP\" in a Shell for its options, and read "
+           (tackon #docdir "ExtraVersion.doc") " for the string format.")
+      (quiet))

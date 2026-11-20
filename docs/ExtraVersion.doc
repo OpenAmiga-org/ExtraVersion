@@ -1,58 +1,114 @@
-commands/EXTRAVERSION                                       commands/EXTVERSION
+TABLE OF CONTENTS
+
+commands/EXTRAVERSION
+
+
+commands/EXTRAVERSION                                         commands/EXTRAVERSION
 
    NAME
-	EXTVERSION - Find the extra version string (non-Amiga version).
+	EXTRAVERSION - Find the extra version string (non-Amiga version).
 
    VERSION
-    1.0 beta
+	@VERSION@ (@DATE@)
 
    FORMAT
-	EXTVERSION [<library|script|file>] [FULL|VSTRING|HELP]
+	EXTRAVERSION [<library|script|file>] [FULL] [VSTRING]
+	             [VER=VERSTAG] [VERIFY] [HELP]
 
    TEMPLATE
-	NAME, FULL/S, HELP/S, VSTRING/S
+	NAME,FULL/S,HELP/S,VSTRING/S,VER=VERSTAG/S,VERIFY/S
+
+   PATH
+	C:EXTRAVERSION
 
    FUNCTION
-	EXTVERSION finds the extra version number of a library,	command,
-	script or simply any file where the extra version string has been has been
-	correctly set.
+	EXTRAVERSION finds the extra version string of a library, command,
+	script or any other file. The extra version string holds the version
+	of the original, non-Amiga software (for example "0.3-Alpha_3" or
+	"2.45.0-rc1"), which often does not fit the Amiga version string.
+	It is a complement to the Amiga version string, never a replacement:
+	the file must still have a normal $VER: string.
 
-	EXTVERSION with no <library|script|file> argument prints the name and
-	extra version string.
+	EXTRAVERSION with no <library|script|file> argument prints its own
+	name and extra version.
 
-	The VSTRING keyword requires a NAME parameter that is not a wildcard
-	pattern. If the extra version information can be found for the named file,
-	then it will be printed; if no such information	is available, an empty
-	line will be printed instead. This feature is useful for script files.
-	Note: If the origional extra version string includes a space between the
-	date and comment, then it will be included in the output. Unlike in the
-    command	VERSION.
+	By default, only the name and the extra version are printed. The
+	FULL option prints the date as well, and the comment on a second
+	line when there is one.
 
-	The HELP keyword will print some information regarding the
-	EXTVERSION command syntax among other things.
+	The VSTRING option prints the whole extra version string, starting
+	with $EXTVER:. If the file has no extra version string, an empty
+	line is printed instead. This is useful in scripts.
 
+	The VER (or VERSTAG) option reads the normal $VER: string of the
+	file instead of the $EXTVER: string. All other options work the
+	same way.
 
-    To add an extra version string to your file, make sure that the file
-    contains a string of characters that represent the extra version string.
+	The VERIFY option prints the string as it was found, followed by
+	each part of it: name, version, date and comment.
 
-    "\0$EXTVER: ProgramName ExtraVersionString (dd.mm.yyyy) Comment\0" 
+	The HELP option prints a short help text.
 
-	ProgramName    	    - Name of your program
-	ExtraVersionString  - Any non-Amiga version string (tip: use _ for spaces)
-	dd	                - Day of month (1-31)
-	mm	                - Month of year (1-12)
-	yyyy	            - Year using four digits
-	comment	            - Optional comment, just for readability.
+	When the file has no extra version string, EXTRAVERSION prints
+	"Could not find extra version information" and sets the return
+	code to 20 (FAIL), like VERSION does. With VSTRING alone the return
+	code stays 0.
 
+   THE EXTRA VERSION STRING
+	To add an extra version string to your program, put this string of
+	characters in it:
 
-   NOTE
-	<library|script|file> is case sensitive and does not support pattern
-	matching.
-	Note that the extra version string is not a replacement for the Amiga
-    version string. It's only a complement if the original version string
-    cannot be described accuratly or sarisfactorily with the amiga version
-	string. 
+	    "\0$EXTVER: Program_Name ExtraVersionString (dd.mm.yyyy) Comment\0"
 
+	Program_Name        - name of your program, one word (use _ for
+	                      spaces)
+	ExtraVersionString  - any non-Amiga version string (use _ for
+	                      spaces)
+	dd.mm.yyyy          - day, month and year with four digits
+	Comment             - optional, just for readability
+
+	In a script, put it in a comment line:
+
+	    ; $EXTVER: My_Script 0.3-Alpha_3 (12.5.2014) First test
+
+	In C, keep the string in the program even when it is not used:
+
+	    static const char extver[] __attribute__((used)) =
+	        "\0$EXTVER: Program_Name 1.0.0-rc1 (20.11.2026)";
+
+	The string starts after "$EXTVER:" (upper case, as $VER:) and ends
+	at a NUL, at the end of the line or at the end of the file. The name
+	is the first word, the version is the rest up to the "(" of the
+	date, and the comment follows the ")". A $EXTVER: without a name, a
+	version or a date does not count, and the search goes on, so a
+	program that only searches for "$EXTVER:" does not confuse
+	EXTRAVERSION.
+
+   EXAMPLES
+	For the script above, saved as S:My_Script:
+
+	    1> EXTRAVERSION
+	    ExtraVersion @VERSION@
+
+	    1> EXTRAVERSION S:My_Script
+	    My_Script 0.3-Alpha_3
+
+	    1> EXTRAVERSION S:My_Script FULL
+	    My_Script 0.3-Alpha_3 (12.5.2014)
+	    First test
+
+	    1> EXTRAVERSION S:My_Script VSTRING
+	    $EXTVER: My_Script 0.3-Alpha_3 (12.5.2014) First test
+
+	    1> EXTRAVERSION C:EXTRAVERSION VER VSTRING
+	    $VER: ExtraVersion @VERSION@ (@DATE@)
+
+   NOTES
+	<library|script|file> does not support pattern matching.
+
+	The Amiga version string is still required. ExtraVersion only
+	complements it when the original version cannot be written as an
+	Amiga version.revision number.
 
    SEE ALSO
 	VERSION

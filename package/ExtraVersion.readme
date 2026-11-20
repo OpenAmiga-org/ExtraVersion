@@ -1,0 +1,129 @@
+name: ExtraVersion
+description: Finds the extra (non-Amiga) version of a file
+version: @VERSION@
+date: @DATE@
+author: Marko K. Seppänen, Björn Hagström
+submitter: Björn Hagström
+email:
+url: http://openamiga.org/?function=gitproject&name=ExtraVersion
+category: utility/shell
+replaces:
+requirements:
+license:
+minosversion: 4.1
+texttype: Markdown
+distribute: yes
+hend:
+
+# ExtraVersion @VERSION@ - finds the extra (non-Amiga) version of a file
+
+Ported software often has a version that doesn't fit the Amiga version
+string: `0.3-Alpha_3`, `2.45.0-rc1`, a date or a git hash. **ExtraVersion**
+reads a second string, `$EXTVER:`, that holds this original version next
+to the normal `$VER:` string (never instead of it). It works like the
+Version command: on programs, libraries, scripts and any other file.
+
+ExtraVersion is an [OpenAmiga.org project](http://openamiga.org/?function=gitproject&name=ExtraVersion).
+The source code, test versions and bug reports are at
+<https://github.com/OpenAmiga-org/ExtraVersion>.
+
+## Features
+
+- Prints the name and extra version of a file; `FULL` adds the date and
+  the comment, `VSTRING` prints the whole string for scripts (an empty
+  line when there is none).
+- `VER` reads the normal `$VER:` string instead, with the same options.
+- `VERIFY` shows the string as found and each of its parts.
+- Reads tags the way Version reads `$VER:`: upper case only, a string
+  without name, version or date is skipped and the search goes on, the
+  return code is 20 when nothing is found.
+- No libraries needed.
+
+## Installation
+
+Double-click Install, or copy `C/ExtraVersion` to `C:`. Install puts the
+documentation, `ExtraVersion.doc`, in `SYS:Documentation/C` next to the
+documents of the other Shell commands.
+
+## Contents
+
+- `ExtraVersion/C/ExtraVersion`: the command
+- `ExtraVersion/ExtraVersion.doc`: the documentation
+- `ExtraVersion/Install`: the Install script
+
+## Using it
+
+Put the extra version string in your program or script, like this:
+
+    "\0$EXTVER: Program_Name ExtraVersionString (dd.mm.yyyy) Comment\0"
+
+    ; $EXTVER: My_Script 0.3-Alpha_3 (12.5.2014) First test
+
+Then read it in a Shell, for example:
+
+    1> ExtraVersion S:My_Script
+    My_Script 0.3-Alpha_3
+    1> ExtraVersion S:My_Script FULL
+    My_Script 0.3-Alpha_3 (12.5.2014)
+    First test
+    1> ExtraVersion S:My_Script VSTRING
+    $EXTVER: My_Script 0.3-Alpha_3 (12.5.2014) First test
+
+    NAME,FULL/S,HELP/S,VSTRING/S,VER=VERSTAG/S,VERIFY/S
+
+`ExtraVersion.doc` describes the string and every option.
+
+## History
+
+### 1.3 (20.11.2026)
+
+- First release from the OpenAmiga.org GitHub repository. The version
+  string is now a real Amiga version, 1.3 (1.2.0b read as 1.2).
+- `VER=VERSTAG` and `VERIFY` are back: the 1.1 and 1.2 source code was
+  never committed, so they were written again from the 1.2.0b readme
+  and checked against the 1.2.0b command.
+- Programs that contain the bare search string `$EXTVER:`, such as
+  ExtraVersion itself, are read right: a `$EXTVER:` without name,
+  version and date is skipped. 1.2.0b printed ` Extversion` or parts of
+  other strings for them.
+- `FULL` and `VSTRING` work with the file name in any position
+  (`ExtraVersion FULL file` looked for a file called FULL).
+- No extra version string: prints "Could not find extra version
+  information" and returns 20, like Version (1.2.0b printed nothing, or
+  `()` with `FULL`). `VSTRING` still prints an empty line.
+- A missing file or a drawer gives the AmigaDOS error and returns 20.
+- Without a file name it prints its own extra version.
+- The whole version up to the date is kept (`file 001`, was `file`).
+- Ctrl-C stops the search in big files.
+- Install script, icons and new documentation.
+
+### 1.2.0 beta (02.01.2018)
+
+- New switch `VERIFY` that displays the parsed-out information.
+- Test code left out of the release executable, for a smaller file.
+- Leading and trailing white space trimmed.
+- 1.1.0b (December 2017): new switch `VER` (`VERSTAG`), finds the
+  `$VER:` string instead. Fixed one trailing space in the returned
+  string when there was no comment. Corrected the name to
+  "ExtraVersion" in various places, thanks TSK.
+- 1.0.1b (December 2017): an `$EXTVER:` string at the very end of a
+  file without a comment is found. Non-standard versions such as
+  `0.3-Alpha_3` are read.
+
+### 1.0 beta (26.02.2016)
+
+- Most of the command rewritten from scratch.
+- Test cases and more than 40 test files for good and bad strings.
+- Works on both text files and executables.
+- Compiled with the newly published SDK.
+
+### 0.4 beta (29.05.2014)
+
+- Options `HELP`, `FULL` and `VSTRING`.
+- Fixed extra trailing characters read into the string.
+- Fixed strings in scripts and other text files not being found.
+- Many other fixes and improvements.
+
+### 0.3 (12.05.2014)
+
+- Alpha 3. Updated `ExtraVersion.doc`.

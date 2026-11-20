@@ -7,15 +7,15 @@ Bug(s)
 
 TODO
 ----
-* do not include test code when making a proper version.
-* when called without params, print own extver tag.
-* clean up the doc file
-* clean up the readme file
-* clean up the code
+* DONE (1.3) do not include test code when making a proper version.
+* DONE (1.3) when called without params, print own extver tag.
+* DONE (1.3) clean up the doc file
+* DONE (1.3) clean up the readme file
+* DONE (1.3) clean up the code
 * follow links to their destination so the file can be scanned
 * change convention to meet openamiga.org guidelines, the bracketting
-* add install notes to readme
-* Add examples to .doc
+* DONE (1.3) add install notes to readme
+* DONE (1.3) Add examples to .doc
 * (patter matching)
 * version compare-exact match
 * later: (implement version)

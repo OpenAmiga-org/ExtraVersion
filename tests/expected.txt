@@ -1,0 +1,949 @@
+> ExtraVersion tests/bad/testfile.bad.1  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.1".
+> ExtraVersion tests/bad/testfile.bad.1 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.1".
+> ExtraVersion tests/bad/testfile.bad.1 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.1 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.1".
+> ExtraVersion tests/bad/testfile.bad.1 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.1".
+> ExtraVersion tests/bad/testfile.bad.2  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.2".
+> ExtraVersion tests/bad/testfile.bad.2 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.2".
+> ExtraVersion tests/bad/testfile.bad.2 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.2 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.2".
+> ExtraVersion tests/bad/testfile.bad.2 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.2".
+> ExtraVersion tests/bad/testfile.bad.3  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.3".
+> ExtraVersion tests/bad/testfile.bad.3 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.3".
+> ExtraVersion tests/bad/testfile.bad.3 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.3 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.3".
+> ExtraVersion tests/bad/testfile.bad.3 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.3".
+> ExtraVersion tests/bad/testfile.bad.4  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.4".
+> ExtraVersion tests/bad/testfile.bad.4 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.4".
+> ExtraVersion tests/bad/testfile.bad.4 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.4 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.4".
+> ExtraVersion tests/bad/testfile.bad.4 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.4".
+> ExtraVersion tests/bad/testfile.bad.5  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.5".
+> ExtraVersion tests/bad/testfile.bad.5 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.5".
+> ExtraVersion tests/bad/testfile.bad.5 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.5 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.5".
+> ExtraVersion tests/bad/testfile.bad.5 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.5".
+> ExtraVersion tests/bad/testfile.bad.6  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.6".
+> ExtraVersion tests/bad/testfile.bad.6 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.6".
+> ExtraVersion tests/bad/testfile.bad.6 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.6 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.6".
+> ExtraVersion tests/bad/testfile.bad.6 VER VERIFY  [rc=0]
+$VER: found = "$VER: Extversion 0.3 (12.05.2014)"
+Name = "Extversion"
+Version = "0.3"
+Date = "12.05.2014"
+Comment = ""
+> ExtraVersion tests/bad/testfile.bad.7  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.7".
+> ExtraVersion tests/bad/testfile.bad.7 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.7".
+> ExtraVersion tests/bad/testfile.bad.7 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.7 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.7".
+> ExtraVersion tests/bad/testfile.bad.7 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.7".
+> ExtraVersion tests/bad/testfile.bad.8  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.8".
+> ExtraVersion tests/bad/testfile.bad.8 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.8".
+> ExtraVersion tests/bad/testfile.bad.8 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.8 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.8".
+> ExtraVersion tests/bad/testfile.bad.8 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.8".
+> ExtraVersion tests/bad/testfile.bad.9  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.9".
+> ExtraVersion tests/bad/testfile.bad.9 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.9".
+> ExtraVersion tests/bad/testfile.bad.9 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.9 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.9".
+> ExtraVersion tests/bad/testfile.bad.9 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.9".
+> ExtraVersion tests/bad/testfile.bad.10  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.10".
+> ExtraVersion tests/bad/testfile.bad.10 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.10".
+> ExtraVersion tests/bad/testfile.bad.10 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.10 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.10".
+> ExtraVersion tests/bad/testfile.bad.10 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.10".
+> ExtraVersion tests/bad/testfile.bad.11  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.11".
+> ExtraVersion tests/bad/testfile.bad.11 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.11".
+> ExtraVersion tests/bad/testfile.bad.11 VSTRING  [rc=0]
+
+> ExtraVersion tests/bad/testfile.bad.11 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/bad/testfile.bad.11".
+> ExtraVersion tests/bad/testfile.bad.11 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/bad/testfile.bad.11".
+> ExtraVersion tests/good/testfile.good.1.1  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.1 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.1 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.1 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.1 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.1".
+> ExtraVersion tests/good/testfile.good.1.2  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.2 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.2 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.2 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.2 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.2".
+> ExtraVersion tests/good/testfile.good.1.3  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.3 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.3 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.3 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.3 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.3".
+> ExtraVersion tests/good/testfile.good.1.4  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.4 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.4 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.4 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.4 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.4".
+> ExtraVersion tests/good/testfile.good.1.5  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.5 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.5 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.5 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.5 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.5".
+> ExtraVersion tests/good/testfile.good.1.6  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.6 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.6 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.6 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.6 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.6".
+> ExtraVersion tests/good/testfile.good.1.7  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.7 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.7 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.7 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.7 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.7".
+> ExtraVersion tests/good/testfile.good.1.8  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.8 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.8 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.8 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.8 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.8".
+> ExtraVersion tests/good/testfile.good.1.9  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.9 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.9 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.9 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.9 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.9".
+> ExtraVersion tests/good/testfile.good.1.10  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.10 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.10 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.10 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.10 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.10".
+> ExtraVersion tests/good/testfile.good.1.11  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.11 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.11 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.11 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.11 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.11".
+> ExtraVersion tests/good/testfile.good.1.12  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.12 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.12 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.12 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.12 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.12".
+> ExtraVersion tests/good/testfile.good.1.13  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.13 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.13 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.13 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.13 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.13".
+> ExtraVersion tests/good/testfile.good.1.14  [rc=0]
+Extversion 0.3-Alpha_3.1
+> ExtraVersion tests/good/testfile.good.1.14 FULL  [rc=0]
+Extversion 0.3-Alpha_3.1 (12.05.2014)
+Extversion test comment.
+> ExtraVersion tests/good/testfile.good.1.14 VSTRING  [rc=0]
+$EXTVER: Extversion 0.3-Alpha_3.1 (12.05.2014) Extversion test comment.
+> ExtraVersion tests/good/testfile.good.1.14 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Extversion 0.3-Alpha_3.1 (12.05.2014) Extversion test comment."
+Name = "Extversion"
+Version = "0.3-Alpha_3.1"
+Date = "12.05.2014"
+Comment = "Extversion test comment."
+> ExtraVersion tests/good/testfile.good.1.14 VER VERIFY  [rc=0]
+$VER: found = "$VER: Extversion 0.3 (12.05.2014) ersion test comment."
+Name = "Extversion"
+Version = "0.3"
+Date = "12.05.2014"
+Comment = "ersion test comment."
+> ExtraVersion tests/good/testfile.good.1.15  [rc=0]
+Extversion 0.3-Alpha_3
+> ExtraVersion tests/good/testfile.good.1.15 FULL  [rc=0]
+Extversion 0.3-Alpha_3 (12.05.2014)
+Extversion test comment.
+> ExtraVersion tests/good/testfile.good.1.15 VSTRING  [rc=0]
+$EXTVER: Extversion 0.3-Alpha_3 (12.05.2014) Extversion test comment.
+> ExtraVersion tests/good/testfile.good.1.15 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Extversion 0.3-Alpha_3 (12.05.2014) Extversion test comment."
+Name = "Extversion"
+Version = "0.3-Alpha_3"
+Date = "12.05.2014"
+Comment = "Extversion test comment."
+> ExtraVersion tests/good/testfile.good.1.15 VER VERIFY  [rc=0]
+$VER: found = "$VER: Extversion 0.3 (12.05.2014)"
+Name = "Extversion"
+Version = "0.3"
+Date = "12.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.16  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.16 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.16 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.16 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.16 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.16".
+> ExtraVersion tests/good/testfile.good.1.17  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.17 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.17 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.17 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER:TestScript 001(27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.17 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.17".
+> ExtraVersion tests/good/testfile.good.1.18  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.18 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.18 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.18 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER:TestScript 001(27.05.2014)Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.18 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.18".
+> ExtraVersion tests/good/testfile.good.1.19  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.19 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.19 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.19 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER:TestScript 001(27.05.2014)Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.19 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.19".
+> ExtraVersion tests/good/testfile.good.1.20  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.20 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.20 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.20 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001(27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.20 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.20".
+> ExtraVersion tests/good/testfile.good.1.21  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.21 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+> ExtraVersion tests/good/testfile.good.1.21 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.21 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001(27.05.2014) Test comment."
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = "Test comment."
+> ExtraVersion tests/good/testfile.good.1.21 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.21".
+> ExtraVersion tests/good/testfile.good.1.22  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.1.22 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.22 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.22 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001(27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.22 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.22".
+> ExtraVersion tests/good/testfile.good.1.23  [rc=0]
+Test file 001
+> ExtraVersion tests/good/testfile.good.1.23 FULL  [rc=0]
+Test file 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.23 VSTRING  [rc=0]
+$EXTVER: Test file 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.1.23 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Test file 001(27.05.2014)"
+Name = "Test"
+Version = "file 001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.1.23 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.1.23".
+> ExtraVersion tests/good/testfile.good.2.1  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.1".
+> ExtraVersion tests/good/testfile.good.2.1 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.1".
+> ExtraVersion tests/good/testfile.good.2.1 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.1 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.1".
+> ExtraVersion tests/good/testfile.good.2.1 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.1".
+> ExtraVersion tests/good/testfile.good.2.2  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.2".
+> ExtraVersion tests/good/testfile.good.2.2 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.2".
+> ExtraVersion tests/good/testfile.good.2.2 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.2 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.2".
+> ExtraVersion tests/good/testfile.good.2.2 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.2".
+> ExtraVersion tests/good/testfile.good.2.3  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.3".
+> ExtraVersion tests/good/testfile.good.2.3 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.3".
+> ExtraVersion tests/good/testfile.good.2.3 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.3 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.3".
+> ExtraVersion tests/good/testfile.good.2.3 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.3".
+> ExtraVersion tests/good/testfile.good.2.4  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.4".
+> ExtraVersion tests/good/testfile.good.2.4 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.4".
+> ExtraVersion tests/good/testfile.good.2.4 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.4 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.4".
+> ExtraVersion tests/good/testfile.good.2.4 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.4".
+> ExtraVersion tests/good/testfile.good.2.5  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.5".
+> ExtraVersion tests/good/testfile.good.2.5 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.5".
+> ExtraVersion tests/good/testfile.good.2.5 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.5 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.5".
+> ExtraVersion tests/good/testfile.good.2.5 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.5".
+> ExtraVersion tests/good/testfile.good.2.6  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.6 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.6 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.6 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.6 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.6".
+> ExtraVersion tests/good/testfile.good.2.7  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.7 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.7 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.7 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.7 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.7".
+> ExtraVersion tests/good/testfile.good.2.8  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.8 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.8 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.8 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.8 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.8".
+> ExtraVersion tests/good/testfile.good.2.9  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.9 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.9 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.9 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.9 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.9".
+> ExtraVersion tests/good/testfile.good.2.10  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.10 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.10 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.10 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.10 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.10".
+> ExtraVersion tests/good/testfile.good.2.11  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.11 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.11 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.11 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.11 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.11".
+> ExtraVersion tests/good/testfile.good.2.12  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.12 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.12 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.12 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.12 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.12".
+> ExtraVersion tests/good/testfile.good.2.13  [rc=0]
+TestScript 001
+> ExtraVersion tests/good/testfile.good.2.13 FULL  [rc=0]
+TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.13 VSTRING  [rc=0]
+$EXTVER: TestScript 001 (27.05.2014)
+> ExtraVersion tests/good/testfile.good.2.13 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: TestScript 001 (27.05.2014)"
+Name = "TestScript"
+Version = "001"
+Date = "27.05.2014"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.13 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.13".
+> ExtraVersion tests/good/testfile.good.2.14  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.14".
+> ExtraVersion tests/good/testfile.good.2.14 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.14".
+> ExtraVersion tests/good/testfile.good.2.14 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.14 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.14".
+> ExtraVersion tests/good/testfile.good.2.14 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.14".
+> ExtraVersion tests/good/testfile.good.2.15  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.15 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.15 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.15 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.15 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.15".
+> ExtraVersion tests/good/testfile.good.2.16  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.16 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.16 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.16 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.16 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.16".
+> ExtraVersion tests/good/testfile.good.2.17  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.17 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.17 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.17 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.17 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.17".
+> ExtraVersion tests/good/testfile.good.2.18  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.18 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.18 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.18 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.18 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.18".
+> ExtraVersion tests/good/testfile.good.2.19  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.19 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+*/
+> ExtraVersion tests/good/testfile.good.2.19 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99) */
+> ExtraVersion tests/good/testfile.good.2.19 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99) */"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = "*/"
+> ExtraVersion tests/good/testfile.good.2.19 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.19".
+> ExtraVersion tests/good/testfile.good.2.20  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.20 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.20 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.20 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.20 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.20".
+> ExtraVersion tests/good/testfile.good.2.21  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.21 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.21 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.21 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.21 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.21".
+> ExtraVersion tests/good/testfile.good.2.22  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.22 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.22 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.22 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.22 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.22".
+> ExtraVersion tests/good/testfile.good.2.23  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.23 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.23 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.23 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.23 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.23".
+> ExtraVersion tests/good/testfile.good.2.24  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.24 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.24 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.24 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.24 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.24".
+> ExtraVersion tests/good/testfile.good.2.25  [rc=0]
+DoSomething.rexx 1.0
+> ExtraVersion tests/good/testfile.good.2.25 FULL  [rc=0]
+DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.25 VSTRING  [rc=0]
+$EXTVER: DoSomething.rexx 1.0 (21.12.99)
+> ExtraVersion tests/good/testfile.good.2.25 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: DoSomething.rexx 1.0 (21.12.99)"
+Name = "DoSomething.rexx"
+Version = "1.0"
+Date = "21.12.99"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.2.25 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.25".
+> ExtraVersion tests/good/testfile.good.2.26  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.26".
+> ExtraVersion tests/good/testfile.good.2.26 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.26".
+> ExtraVersion tests/good/testfile.good.2.26 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.26 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.26".
+> ExtraVersion tests/good/testfile.good.2.26 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.26".
+> ExtraVersion tests/good/testfile.good.2.27  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.27".
+> ExtraVersion tests/good/testfile.good.2.27 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.27".
+> ExtraVersion tests/good/testfile.good.2.27 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.27 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.27".
+> ExtraVersion tests/good/testfile.good.2.27 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.27".
+> ExtraVersion tests/good/testfile.good.2.28  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.28".
+> ExtraVersion tests/good/testfile.good.2.28 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.28".
+> ExtraVersion tests/good/testfile.good.2.28 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.28 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.28".
+> ExtraVersion tests/good/testfile.good.2.28 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.28".
+> ExtraVersion tests/good/testfile.good.2.29  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.29".
+> ExtraVersion tests/good/testfile.good.2.29 FULL  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.29".
+> ExtraVersion tests/good/testfile.good.2.29 VSTRING  [rc=0]
+
+> ExtraVersion tests/good/testfile.good.2.29 VERIFY  [rc=20]
+ExtraVersion: Could not find extra version information for "tests/good/testfile.good.2.29".
+> ExtraVersion tests/good/testfile.good.2.29 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.2.29".
+> ExtraVersion tests/good/testfile.good.3.1  [rc=0]
+Prog 2.0-rc1
+> ExtraVersion tests/good/testfile.good.3.1 FULL  [rc=0]
+Prog 2.0-rc1 (1.2.2026)
+second tag
+> ExtraVersion tests/good/testfile.good.3.1 VSTRING  [rc=0]
+$EXTVER: Prog 2.0-rc1 (1.2.2026) second tag
+> ExtraVersion tests/good/testfile.good.3.1 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Prog 2.0-rc1 (1.2.2026) second tag"
+Name = "Prog"
+Version = "2.0-rc1"
+Date = "1.2.2026"
+Comment = "second tag"
+> ExtraVersion tests/good/testfile.good.3.1 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.1".
+> ExtraVersion tests/good/testfile.good.3.2  [rc=0]
+Prog 1.0
+> ExtraVersion tests/good/testfile.good.3.2 FULL  [rc=0]
+Prog 1.0 (1.2.2026)
+> ExtraVersion tests/good/testfile.good.3.2 VSTRING  [rc=0]
+$EXTVER: Prog 1.0 (1.2.2026)
+> ExtraVersion tests/good/testfile.good.3.2 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Prog 1.0 (1.2.2026)"
+Name = "Prog"
+Version = "1.0"
+Date = "1.2.2026"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.3.2 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.2".
+> ExtraVersion tests/good/testfile.good.3.3  [rc=0]
+Prog 1.0
+> ExtraVersion tests/good/testfile.good.3.3 FULL  [rc=0]
+Prog 1.0 (1.2.2026)
+CRLF line
+> ExtraVersion tests/good/testfile.good.3.3 VSTRING  [rc=0]
+$EXTVER: Prog 1.0 (1.2.2026) CRLF line
+> ExtraVersion tests/good/testfile.good.3.3 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Prog 1.0 (1.2.2026) CRLF line"
+Name = "Prog"
+Version = "1.0"
+Date = "1.2.2026"
+Comment = "CRLF line"
+> ExtraVersion tests/good/testfile.good.3.3 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.3".
+> ExtraVersion tests/good/testfile.good.3.4  [rc=0]
+Prog 1.0.0-git-abc1234
+> ExtraVersion tests/good/testfile.good.3.4 FULL  [rc=0]
+Prog 1.0.0-git-abc1234 (1.2.2026)
+from git
+> ExtraVersion tests/good/testfile.good.3.4 VSTRING  [rc=0]
+$EXTVER: Prog 1.0.0-git-abc1234 (1.2.2026) from git
+> ExtraVersion tests/good/testfile.good.3.4 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Prog 1.0.0-git-abc1234 (1.2.2026) from git"
+Name = "Prog"
+Version = "1.0.0-git-abc1234"
+Date = "1.2.2026"
+Comment = "from git"
+> ExtraVersion tests/good/testfile.good.3.4 VER VERIFY  [rc=0]
+$VER: found = "$VER: Prog 1.0 (1.2.2026)"
+Name = "Prog"
+Version = "1.0"
+Date = "1.2.2026"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.3.5  [rc=0]
+Big 1.0
+> ExtraVersion tests/good/testfile.good.3.5 FULL  [rc=0]
+Big 1.0 (1.2.2026)
+> ExtraVersion tests/good/testfile.good.3.5 VSTRING  [rc=0]
+$EXTVER: Big 1.0 (1.2.2026)
+> ExtraVersion tests/good/testfile.good.3.5 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Big 1.0 (1.2.2026)"
+Name = "Big"
+Version = "1.0"
+Date = "1.2.2026"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.3.5 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.5".
+> ExtraVersion tests/good/testfile.good.3.6  [rc=0]
+gcc 15.2.0+ppc
+> ExtraVersion tests/good/testfile.good.3.6 FULL  [rc=0]
+gcc 15.2.0+ppc (2026-02-01)
+> ExtraVersion tests/good/testfile.good.3.6 VSTRING  [rc=0]
+$EXTVER: gcc 15.2.0+ppc (2026-02-01)
+> ExtraVersion tests/good/testfile.good.3.6 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: gcc 15.2.0+ppc (2026-02-01)"
+Name = "gcc"
+Version = "15.2.0+ppc"
+Date = "2026-02-01"
+Comment = ""
+> ExtraVersion tests/good/testfile.good.3.6 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.6".
+> ExtraVersion tests/good/testfile.good.3.7  [rc=0]
+Boundary 1.0
+> ExtraVersion tests/good/testfile.good.3.7 FULL  [rc=0]
+Boundary 1.0 (1.2.2026)
+across the 64 KB block
+> ExtraVersion tests/good/testfile.good.3.7 VSTRING  [rc=0]
+$EXTVER: Boundary 1.0 (1.2.2026) across the 64 KB block
+> ExtraVersion tests/good/testfile.good.3.7 VERIFY  [rc=0]
+$EXTVER: found = "$EXTVER: Boundary 1.0 (1.2.2026) across the 64 KB block"
+Name = "Boundary"
+Version = "1.0"
+Date = "1.2.2026"
+Comment = "across the 64 KB block"
+> ExtraVersion tests/good/testfile.good.3.7 VER VERIFY  [rc=20]
+ExtraVersion: Could not find version information for "tests/good/testfile.good.3.7".
+> ExtraVersion  [rc=0]
+ExtraVersion 1.3
+> ExtraVersion FULL  [rc=0]
+ExtraVersion 1.3 (20.11.2026)
+> ExtraVersion VER  [rc=0]
+ExtraVersion 1.3
+> ExtraVersion VER VSTRING  [rc=0]
+$VER: ExtraVersion 1.3 (20.11.2026)
+> ExtraVersion ExtraVersion  [rc=0]
+ExtraVersion 1.3
+> ExtraVersion ExtraVersion VER FULL  [rc=0]
+ExtraVersion 1.3 (20.11.2026)
+> ExtraVersion tests/good/testfile.good.1.1 FULL VSTRING  [rc=0]
+TestScript 001 (27.05.2014)
+Test comment.
+$EXTVER: TestScript 001 (27.05.2014) Test comment.
+> ExtraVersion tests/good/testfile.good.1.1 a  [rc=10]
+ExtraVersion: wrong number of arguments
+> ExtraVersion nosuchfile  [rc=20]
+ExtraVersion: object not found: nosuchfile
+> ExtraVersion tests  [rc=20]
+ExtraVersion: object is not of required type: tests
