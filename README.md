@@ -1,14 +1,25 @@
 # ExtraVersion
 
 ExtraVersion: a `$EXTVER:` convention for storing a program's original
-(non-Amiga) version string, and an AmigaOS 4 command that reads it. By Marko
-K. Seppänen.
+(non-Amiga) version string, and an AmigaOS 4 command that reads it. By
+Marko K. Seppänen. ExtraVersion is an
+[OpenAmiga.org project](http://openamiga.org/?function=gitproject&name=ExtraVersion).
 
 Ported software often has a version string that doesn't fit the Amiga
 version string format. ExtraVersion adds a second string next to the normal
 `$VER:` string (never instead of it) for the original version.
 
 Version 1.0 beta (2016-02-26).
+
+Download: [extraversion.lha on OS4Depot](https://os4depot.net/?function=showfile&file=utility/shell/extraversion.lha) (the command and its readme, version 1.2.0b).
+
+## Layout
+
+- `src/`: `extraversion.c`, the makefile, a built `ExtraVersion` and the test
+  files.
+- `docs/`: the readme, the AutoDoc-style `ExtraVersion.doc`, the developer
+  notes and to-do list (`DevDoc.txt`) and the OS4Depot upload text.
+- `release/`: the 1.0 beta release, also as `ExtraVersion.lha`.
 
 ## The extra version string
 
@@ -39,14 +50,6 @@ It works on both text files and executables. The full documentation is
 `ExtraVersion`, `make test` a test build, `make release` and `make lha` the
 release in `release/`. `src/tests/good` and `src/tests/bad` hold more than
 60 test files with correct and broken extra version strings.
-
-## Contents
-
-- `src/`: `extraversion.c`, the makefile, a built `ExtraVersion` and the test
-  files.
-- `docs/`: the readme, the AutoDoc-style `ExtraVersion.doc`, the developer
-  notes and to-do list (`DevDoc.txt`) and the OS4Depot upload text.
-- `release/`: the 1.0 beta release, also as `ExtraVersion.lha`.
 
 ## Original project description
 
