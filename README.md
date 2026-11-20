@@ -28,7 +28,7 @@ Download: [extraversion.lha on OS4Depot](https://os4depot.net/?function=showfile
   script and the icons (`icons/`: the `.info` files and their pictures).
 - `tools/`: `make_lha.sh` (release archive), `make_icons.py` and
   `os4/mkicon.c` (icons), `update_readme.py` (the changelog below, from
-  the readme).
+  the readme), `os4depot_submit.py` (OS4Depot upload).
 
 ## Using it
 
@@ -64,6 +64,8 @@ extra version information", return code 20. The full documentation is
     make test           # Linux build (ASan, UBSan) + tests/run_tests.py
     make test-os4       # the AmigaOS 4 build, same tests in the OS4 guest
     make lha            # dist/ExtraVersion.lha (tools/make_lha.sh)
+    tools/os4depot_submit.py   # what would go to OS4Depot; --send sends it
+                               # (Replace file form, email from os4depot.conf)
 
 On AmigaOS 4 with the SDK: `make DOCKER= CC=gcc STRIP=strip`.
 `make test-os4` needs the amiga-fleet MCP server's Python environment
