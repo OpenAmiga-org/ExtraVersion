@@ -60,7 +60,7 @@ extra version information", return code 20. The full documentation is
 ## Building
 
     make                # build/os4/ExtraVersion, cross-built in the walkero
-                        # docker image walkero/amigagccondocker:os4-gcc15-3.6.1
+                        # docker image walkero/amigagccondocker:os4-gcc15-3.7.0
     make test           # Linux build (ASan, UBSan) + tests/run_tests.py
     make test-os4       # the AmigaOS 4 build, same tests in the OS4 guest
     make lha            # dist/ExtraVersion.lha (tools/make_lha.sh)

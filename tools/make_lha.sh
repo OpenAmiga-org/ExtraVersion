@@ -19,7 +19,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 LHA="${LHA:-$HOME/linux_archivers/lha/lha}"
 RELEASES="${RELEASES:-/media/sf_claude_folder/releases}"
-IMAGE=walkero/amigagccondocker:os4-gcc15-3.6.1
+IMAGE=walkero/amigagccondocker:os4-gcc15-3.7.0
 STAGE="$ROOT/build/stage"
 OUT="$ROOT/dist/ExtraVersion.lha"
 BIN="$ROOT/build/os4/ExtraVersion"

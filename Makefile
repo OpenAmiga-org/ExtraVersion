@@ -9,7 +9,7 @@
 # Native AmigaOS 4 build (SDK with GCC):
 #   make DOCKER= CC=gcc STRIP=strip
 
-IMAGE   = walkero/amigagccondocker:os4-gcc15-3.6.1
+IMAGE   = walkero/amigagccondocker:os4-gcc15-3.7.0
 DOCKER  = sudo docker run --rm -u $(shell id -u):$(shell id -g) -v $(CURDIR):/src -w /src $(IMAGE)
 CC      = $(DOCKER) ppc-amigaos-gcc
 STRIP   = $(DOCKER) ppc-amigaos-strip
